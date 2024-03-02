@@ -1,0 +1,21 @@
+:root{
+  --padding-outer: 10%
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none; 
+}
+#root{
+  min-height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+}
+main {
+  min-height: calc(100vh - 150px);
+  padding: 0 var(--padding-outer);
+  position: relative;
+  padding-top: 170px;
+}

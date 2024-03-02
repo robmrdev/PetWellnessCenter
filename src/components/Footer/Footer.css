@@ -1,0 +1,22 @@
+footer{
+    padding: 0 var(--padding-outer);
+    text-align: center;
+    background-color: lightgray;
+}
+.footerUp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    padding: 20px 0;
+}
+.footerDown{
+    display: flex;
+    justify-content: space-between;
+}
+.footerLeft{
+    text-align: left;
+}
+.footerRight{
+    text-align: right;
+}

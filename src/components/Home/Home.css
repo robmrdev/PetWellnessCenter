@@ -1,0 +1,33 @@
+.homeInner{
+    padding-bottom: 300px;
+}
+.hero{
+    background-color: lightgrey;
+    min-height: 75vh;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    left: 0;
+}
+.ourMission{
+    position: relative;
+    background-color: blue;
+    z-index: 2;
+    height: 200px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: calc(75vh - 250px);
+}
+.OurService{
+    margin: 30px 0;
+    background-color: lightgray;
+    height: 500px;
+}
+.bottomImgSeparator{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: lightgray;
+    width: 100vw;
+    height: 300px;
+}

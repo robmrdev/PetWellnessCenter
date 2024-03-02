@@ -1,0 +1,25 @@
+.userPageWrapper {
+    background-color: lightgray;
+    margin: 0 calc(var(--padding-outer)/3);
+    min-height: calc(100vh - 150px);
+    padding: 15px 0;
+}
+
+.topUserInfo {
+    margin: 20px 40px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 30%;
+    height: 100px;
+}
+.topUserInfo span{
+    grid-column: 1 /2;
+    margin: 0 auto;
+    align-self: center;
+}
+.topUserInfo button{
+    margin: 0 auto;
+    align-self: center;
+    grid-column: 3 /4;
+}
