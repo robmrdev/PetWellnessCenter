@@ -1,6 +1,10 @@
 .homeInner{
     padding-bottom: 300px;
 }
+.homeInner h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
 .hero{
     background-color: lightgrey;
     min-height: 75vh;
@@ -8,21 +12,115 @@
     top: 0;
     width: 100vw;
     left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heroTittle{
+    max-width: 1700px;
+    margin: 0 auto;
+    margin-top: 170px;
+    padding: 75px 175px;
+    width: 100%;
+}
+.heroTittle h4{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.heroTittle h1{
+    font-size: 35px;
+}
+.ourMissionWrapper{
+    margin-top: calc(75vh - 210px);
+    z-index: 2;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.requestButton{
+    margin-bottom: 100px;
+    border: solid 2px black;
+    padding: 13px 26px;
+    font-size: 15px;
 }
 .ourMission{
-    position: relative;
     background-color: blue;
-    z-index: 2;
-    height: 200px;
-    width: 80%;
+    /* height: 200px; */
+    width: 66%;
+    padding: 50px;
+}
+.ourMission p{
+    font-size: 19px;
+    letter-spacing: .01em;
+    line-height: 1.7em;
+}
+.ourMission div{
     margin: 0 auto;
-    margin-top: calc(75vh - 250px);
+    margin-top: 30px;
+    width: 200px;
+    height: 56px;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
 }
 .OurService{
     margin: 30px 0;
-    background-color: lightgray;
-    height: 500px;
+    /* height: 500px; */
+    display: flex;
 }
+.serviceLeft{
+    width: 33.33%;
+    padding: 20px;
+}
+.serviceLeft p{
+    font-size: 19px;
+    letter-spacing: .01em;
+    line-height: 1.7em;
+}
+
+.serviceRight{
+    width: 66.66%;
+    gap: 20px;
+    padding: 10px;
+    /* height: 100%; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.serviceRight>div{
+    /* width: 45%;
+    height: 45%; */
+    background-color: lightgray;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.serviceRight h5{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.serviceRight ul{
+    list-style: disc;
+}
+.serviceRight li{
+    margin-bottom: 7px;
+    font-size: 19px;
+    letter-spacing: .01em;
+    line-height: 1.7em;
+    word-wrap: break-word;
+    margin-left: 20px;
+}
+
 .bottomImgSeparator{
     position: absolute;
     left: 0;

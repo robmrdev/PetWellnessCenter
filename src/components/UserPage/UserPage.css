@@ -1,6 +1,6 @@
 .userPageWrapper {
     background-color: lightgray;
-    margin: 0 calc(var(--padding-outer)/3);
+    margin: 20px calc(var(--padding-outer)/3);
     min-height: calc(100vh - 150px);
     padding: 15px 0;
 }

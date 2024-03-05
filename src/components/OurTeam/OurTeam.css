@@ -1,0 +1,35 @@
+.ourTeam h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.teamTittle{
+    padding: 40px 5%;
+    /* padding-left: 88px; */
+}
+.teamRow{
+    display: flex;
+    justify-content: space-around;
+}
+.teamCard{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 25px 0;
+}
+.teamCardInfo{
+    padding: 10px;
+    line-height: 25px;
+}
+.teamCardInfo h4{
+    font-size: 20px;
+}
+.teamCardInfo h5{
+    font-size: 17px;
+}
+.teamSeparator{
+    height: 400px;
+    background-color: lightgray;
+    width: 100vw;
+    margin: 25px 0;
+    margin-left: -10vw;
+}

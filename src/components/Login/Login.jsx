@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Login.css'
 
 const Login = () => {
@@ -7,7 +8,7 @@ const Login = () => {
           <input type="email" placeholder='Email' />
           <input type="password" placeholder='Password' />
           <button className='loginButton'>
-            login
+            <Link to='/user/'>login</Link>
           </button>
         </form>
     </div>
